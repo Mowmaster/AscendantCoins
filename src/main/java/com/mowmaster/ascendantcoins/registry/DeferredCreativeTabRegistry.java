@@ -27,7 +27,7 @@ public class DeferredCreativeTabRegistry
             .build());
 
     private static ItemStack makeIcon() {
-        ItemStack stack = new ItemStack(Items.BOOK);
+        ItemStack stack = new ItemStack(DeferredRegistryItems.COIN_LARGE_NETHERITE.get());
         CompoundTag tag = new CompoundTag();
         tag.putInt("3DRender", 1);
         stack.setTag(tag);

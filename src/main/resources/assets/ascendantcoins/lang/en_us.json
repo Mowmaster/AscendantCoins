@@ -1,3 +1,16 @@
 {
-  "itemGroup.pedestals": "Ascendant Coins"
+  "itemGroup.ascendantcoins": "Ascendant Coins",
+
+  "item.ascendantcoins.small_copper": "Small Copper",
+  "item.ascendantcoins.medium_copper": "Medium Copper",
+  "item.ascendantcoins.large_copper": "Large Copper",
+
+  "item.ascendantcoins.small_iron": "Small Iron",
+  "item.ascendantcoins.large_iron": "Large Iron",
+
+  "item.ascendantcoins.small_gold": "Small Gold",
+  "item.ascendantcoins.large_gold": "Large Gold",
+
+  "item.ascendantcoins.small_netherite": "Small Netherite",
+  "item.ascendantcoins.large_netherite": "Large Netherite"
 }

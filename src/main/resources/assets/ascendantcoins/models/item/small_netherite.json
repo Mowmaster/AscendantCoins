@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "ascendantcoins:item/models/coin_gold_base",
-		"1": "ascendantcoins:item/models/coin_gold_inner",
-		"particle": "ascendantcoins:item/models/coin_gold_base"
+		"0": "ascendantcoins:item/models/coin_netherite_base",
+		"1": "ascendantcoins:item/models/coin_netherite_inner",
+		"particle": "ascendantcoins:item/models/coin_netherite_base"
 	},
 	"elements": [
 		{
