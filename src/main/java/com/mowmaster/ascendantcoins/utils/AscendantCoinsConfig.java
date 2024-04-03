@@ -1,18 +1,10 @@
 package com.mowmaster.ascendantcoins.utils;
 
-import com.mowmaster.ascendantcoins.ascendantcoins;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.Item;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.config.ModConfigEvent;
-import net.minecraftforge.registries.ForgeRegistries;
 import org.apache.commons.lang3.tuple.Pair;
-
-import java.util.List;
-import java.util.Set;
-import java.util.stream.Collectors;
 
 import static com.mowmaster.ascendantcoins.utils.Reference.MODID;
 
@@ -112,12 +104,12 @@ public class AscendantCoinsConfig
 
     @SubscribeEvent
     public static void onLoad(final ModConfigEvent.Loading configEvent) {
-        ascendantcoins.LOGGER.debug("Loaded Ascendant Coins config file {}", configEvent.getConfig().getFileName());
+        //ascendantcoins.LOGGER.debug("Loaded Ascendant Coins config file {}", configEvent.getConfig().getFileName());
     }
 
     @SubscribeEvent
     public static void onFileChange(final ModConfigEvent.Reloading configEvent) {
-        ascendantcoins.LOGGER.debug("Ascendant Coins config just got changed on the file system!");
+        //ascendantcoins.LOGGER.debug("Ascendant Coins config just got changed on the file system!");
     }
 
 
