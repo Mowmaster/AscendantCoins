@@ -1,0 +1,6 @@
+{
+    "parent": "item/bundle",
+    "textures": {
+        "layer0": "ascendantcoins:item/models/wallet_filled"
+    }
+}

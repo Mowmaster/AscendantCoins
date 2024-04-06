@@ -17,7 +17,7 @@ public class ClientRegistry
         {if (color == 1) {return BaseItemBulkStorageItem.getItemColor();} else {return -1;}}, DeferredRegisterItems.MECHANICAL_STORAGE_ITEM.get());
 */
 
-        //ItemModelPropertiesDust.dustItemModes(DeferredRegisterItems.PEDESTAL_UPGRADE_IMPORT.get());
+        ACItemModelProperties.itemModelProps(DeferredRegistryItems.WALLET_SMALL.get());
 
 
     }

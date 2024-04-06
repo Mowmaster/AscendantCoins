@@ -12,5 +12,15 @@
   "item.ascendantcoins.large_gold": "Large Gold",
 
   "item.ascendantcoins.small_netherite": "Small Netherite",
-  "item.ascendantcoins.large_netherite": "Large Netherite"
+  "item.ascendantcoins.large_netherite": "Large Netherite",
+
+
+  "item.ascendantcoins.wallet_small": "Coin Pouch",
+
+
+  "toooltip.wallet_amount": "Amount In Wallet: ",
+  "toooltip.coin_amount_single": "Coin Value: ",
+  "toooltip.coin_amount_stack": "Stack Value: "
+
+
 }

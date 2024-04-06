@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ascendantcoins:large_gold"
+    }
+  ],
+  "result": {
+    "item": "ascendantcoins:small_gold",
+    "count": 9
+  }
+}

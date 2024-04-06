@@ -7,6 +7,7 @@ import com.mowmaster.ascendantcoins.items.coins.golds.CoinGoldSmall;
 import com.mowmaster.ascendantcoins.items.coins.irons.CoinIronLarge;
 import com.mowmaster.ascendantcoins.items.coins.netherites.CoinNetheriteLarge;
 import com.mowmaster.ascendantcoins.items.coins.netherites.CoinNetheriteSmall;
+import com.mowmaster.ascendantcoins.items.wallets.WalletBase;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -42,6 +43,8 @@ public class DeferredRegistryItems
     public static final RegistryObject<Item> COIN_LARGE_NETHERITE = ITEMS.register("large_netherite",
             () -> new CoinNetheriteLarge(new Item.Properties()));
 
+    public static final RegistryObject<Item> WALLET_SMALL = ITEMS.register("wallet_small",
+            () -> new WalletBase(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

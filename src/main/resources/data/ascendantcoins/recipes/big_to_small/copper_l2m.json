@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ascendantcoins:large_copper"
+    }
+  ],
+  "result": {
+    "item": "ascendantcoins:medium_copper",
+    "count": 9
+  }
+}
