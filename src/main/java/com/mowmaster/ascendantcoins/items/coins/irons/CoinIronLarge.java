@@ -1,6 +1,6 @@
-package com.mowmaster.ascendantcoins.items.irons;
+package com.mowmaster.ascendantcoins.items.coins.irons;
 
-import com.mowmaster.ascendantcoins.items.BaseCoinItem;
+import com.mowmaster.ascendantcoins.items.coins.BaseCoinItem;
 import com.mowmaster.ascendantcoins.utils.AscendantCoinsConfig;
 
 public class CoinIronLarge extends BaseCoinItem {

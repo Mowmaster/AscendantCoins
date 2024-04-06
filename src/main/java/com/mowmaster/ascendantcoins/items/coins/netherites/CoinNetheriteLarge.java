@@ -1,6 +1,6 @@
-package com.mowmaster.ascendantcoins.items.netherites;
+package com.mowmaster.ascendantcoins.items.coins.netherites;
 
-import com.mowmaster.ascendantcoins.items.BaseCoinItem;
+import com.mowmaster.ascendantcoins.items.coins.BaseCoinItem;
 import com.mowmaster.ascendantcoins.utils.AscendantCoinsConfig;
 import net.minecraft.world.item.ItemStack;
 

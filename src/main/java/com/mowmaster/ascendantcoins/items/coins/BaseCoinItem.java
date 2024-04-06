@@ -1,4 +1,4 @@
-package com.mowmaster.ascendantcoins.items;
+package com.mowmaster.ascendantcoins.items.coins;
 
 import com.mowmaster.ascendantcoins.utils.AscendantCoinsConfig;
 import net.minecraft.world.entity.player.Player;

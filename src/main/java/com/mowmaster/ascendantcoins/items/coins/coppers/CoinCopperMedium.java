@@ -1,6 +1,6 @@
-package com.mowmaster.ascendantcoins.items.coppers;
+package com.mowmaster.ascendantcoins.items.coins.coppers;
 
-import com.mowmaster.ascendantcoins.items.BaseCoinItem;
+import com.mowmaster.ascendantcoins.items.coins.BaseCoinItem;
 import com.mowmaster.ascendantcoins.utils.AscendantCoinsConfig;
 
 public class CoinCopperMedium extends BaseCoinItem {

@@ -1,12 +1,12 @@
 package com.mowmaster.ascendantcoins.registry;
 
-import com.mowmaster.ascendantcoins.items.coppers.CoinCopperLarge;
-import com.mowmaster.ascendantcoins.items.coppers.CoinCopperMedium;
-import com.mowmaster.ascendantcoins.items.coppers.CoinCopperSmall;
-import com.mowmaster.ascendantcoins.items.golds.CoinGoldSmall;
-import com.mowmaster.ascendantcoins.items.irons.CoinIronLarge;
-import com.mowmaster.ascendantcoins.items.netherites.CoinNetheriteLarge;
-import com.mowmaster.ascendantcoins.items.netherites.CoinNetheriteSmall;
+import com.mowmaster.ascendantcoins.items.coins.coppers.CoinCopperLarge;
+import com.mowmaster.ascendantcoins.items.coins.coppers.CoinCopperMedium;
+import com.mowmaster.ascendantcoins.items.coins.coppers.CoinCopperSmall;
+import com.mowmaster.ascendantcoins.items.coins.golds.CoinGoldSmall;
+import com.mowmaster.ascendantcoins.items.coins.irons.CoinIronLarge;
+import com.mowmaster.ascendantcoins.items.coins.netherites.CoinNetheriteLarge;
+import com.mowmaster.ascendantcoins.items.coins.netherites.CoinNetheriteSmall;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
