@@ -1,5 +1,6 @@
 package com.mowmaster.ascendantcoins;
 
+import com.mowmaster.ascendantcoins.registry.ConfigRegistry;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,6 +14,7 @@ public class ascendantcoins implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ConfigRegistry.init();
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
