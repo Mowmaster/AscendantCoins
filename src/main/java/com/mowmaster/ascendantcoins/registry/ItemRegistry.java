@@ -43,6 +43,6 @@ public class ItemRegistry
 
     public static void registerModItems()
     {
-        ascendantcoins.LOGGER.info("Registering Mod Items for " + References.MODNAME);
+        References.LOGGER.info("Registering Mod Items for " + References.MODNAME);
     }
 }

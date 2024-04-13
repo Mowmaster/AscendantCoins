@@ -1,6 +1,7 @@
 package com.mowmaster.ascendantcoins.registry;
 
 import com.mowmaster.ascendantcoins.ascendantcoins;
+import com.mowmaster.ascendantcoins.util.References;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -14,7 +15,7 @@ import static com.mowmaster.ascendantcoins.util.References.MODNAME;
 
 public class CreativeTabGroup
 {
-    public static final ItemGroup RAW_INGREDIENTS_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(MODID,"coins_group"),
+    public static final ItemGroup COINS_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(MODID,"coins_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.coins"))
                     .icon(() -> new ItemStack(ItemRegistry.COIN_LARGE_NETHERITE))
                     .entries((displayContext, entries) -> {
@@ -37,6 +38,6 @@ public class CreativeTabGroup
 
     public static void registerItemGroups()
     {
-        ascendantcoins.LOGGER.info("Registering Item Groups for " + MODNAME);
+        References.LOGGER.info("Registering Item Groups for " + MODNAME);
     }
 }

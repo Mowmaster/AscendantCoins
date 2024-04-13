@@ -19,7 +19,7 @@
 			"com.mowmaster.ascendantcoins.ascendantcoins"
 		],
 		"fabric-datagen": [
-          "com.mowmaster.ascendantcoins.AscendantCoinsDataGenerator"
+			"com.mowmaster.ascendantcoins.ascendantcoins_datagen"
 		]
 	},
 	"mixins": [
