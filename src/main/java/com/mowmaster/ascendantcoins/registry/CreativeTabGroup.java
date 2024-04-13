@@ -16,10 +16,22 @@ public class CreativeTabGroup
 {
     public static final ItemGroup RAW_INGREDIENTS_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(MODID,"coins_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.coins"))
-                    .icon(() -> new ItemStack(ItemRegistry.ITEM_CROP_SEED))
+                    .icon(() -> new ItemStack(ItemRegistry.COIN_LARGE_NETHERITE))
                     .entries((displayContext, entries) -> {
-                        entries.add(ItemRegistry.ITEM_CROP_SEED);
-                        entries.add(ItemRegistry.ITEM_DOUBLE_CROP_SEED);
+                        entries.add(ItemRegistry.COIN_SMALL_COPPER);
+                        entries.add(ItemRegistry.COIN_MEDIUM_COPPER);
+                        entries.add(ItemRegistry.COIN_LARGE_COPPER);
+
+                        entries.add(ItemRegistry.COIN_SMALL_IRON);
+                        entries.add(ItemRegistry.COIN_LARGE_IRON);
+
+                        entries.add(ItemRegistry.COIN_SMALL_GOLD);
+                        entries.add(ItemRegistry.COIN_LARGE_GOLD);
+
+                        entries.add(ItemRegistry.COIN_SMALL_NETHERITE);
+                        entries.add(ItemRegistry.COIN_LARGE_NETHERITE);
+
+                        entries.add(ItemRegistry.WALLET);
                     })
                     .build());
 

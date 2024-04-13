@@ -3,15 +3,15 @@
 	"id": "ascendantcoins",
 	"version": "${version}",
 	"name": "Ascendant Coins",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Coin Currency mod inspired by the Ascendance of a Bookworm Series\\nMod adds 9 coins using vanilla materials.\\nUses base 9 for value starting at 1 (configurable) Default recipes are also base 9 (so edit recipes if you change configs)",
 	"authors": [
-		"Me!"
+		"Mowmaster"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://discord.gg/MJaRHcMx5K",
+		"sources": "https://github.com/Mowmaster/AscendantCoins/tree/1.20---Fabric"
 	},
-	"license": "CC0-1.0",
+	"license": "All Rights Reserved",
 	"icon": "assets/ascendantcoins/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -23,7 +23,6 @@
 		]
 	},
 	"mixins": [
-		"ascendantcoins.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.9",

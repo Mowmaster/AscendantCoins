@@ -1,6 +1,8 @@
 package com.mowmaster.ascendantcoins;
 
 import com.mowmaster.ascendantcoins.registry.ConfigRegistry;
+import com.mowmaster.ascendantcoins.registry.CreativeTabGroup;
+import com.mowmaster.ascendantcoins.registry.ItemRegistry;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,6 +20,8 @@ public class ascendantcoins implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+		CreativeTabGroup.registerItemGroups();
+		ItemRegistry.registerModItems();
 
 		LOGGER.info("Hello Fabric world!");
 	}
