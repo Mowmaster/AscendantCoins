@@ -18,6 +18,9 @@
 		"main": [
 			"com.mowmaster.ascendantcoins.ascendantcoins"
 		],
+		"client": [
+			"com.mowmaster.ascendantcoins.ascendantcoins_client"
+		],
 		"fabric-datagen": [
 			"com.mowmaster.ascendantcoins.ascendantcoins_datagen"
 		]
