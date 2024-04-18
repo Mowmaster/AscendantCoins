@@ -1,9 +1,15 @@
 package com.mowmaster.ascendantcoins.items.coins;
 
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.text.MutableText;
+import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
+import net.minecraft.world.World;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 public class BaseCoinItem extends Item
 {
@@ -26,23 +32,21 @@ public class BaseCoinItem extends Item
         return 0.0D;
     }
 
-    /*public void appendHoverText(ItemStack p_150749_, Level p_150750_, List<Component> p_150751_, TooltipFlag p_150752_) {
+    public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
 
-        MutableComponent componentAmountTextSingle = Component.translatable("toooltip.coin_amount_single");
-        MutableComponent componentAmountTextStack = Component.translatable("toooltip.coin_amount_stack");
+        MutableText componentAmountTextSingle = Text.translatable("toooltip.coin_amount_single");
+        MutableText componentAmountTextStack = Text.translatable("toooltip.coin_amount_stack");
 
-        componentAmountTextSingle.withStyle(ChatFormatting.GOLD);
-        MutableComponent componentAmountSingle = Component.literal(""+ BigDecimal.valueOf(getCoinAmount(p_150749_)).toPlainString());
-        componentAmountSingle.withStyle(ChatFormatting.GREEN);
+        componentAmountTextSingle.formatted(Formatting.GOLD);
+        MutableText componentAmountSingle = Text.literal(""+ BigDecimal.valueOf(getCoinAmount(stack)).toPlainString());
+        componentAmountSingle.formatted(Formatting.GREEN);
         componentAmountTextSingle.append(componentAmountSingle);
-        MowLibTooltipUtils.addTooltipMessage(p_150751_,componentAmountTextSingle);
+        tooltip.add(componentAmountTextSingle);
 
-        //MowLibTooltipUtils.addTooltipMessage(p_150751_,Component.literal(""));
-
-        componentAmountTextStack.withStyle(ChatFormatting.LIGHT_PURPLE);
-        MutableComponent componentAmountStack = Component.literal(""+ BigDecimal.valueOf(getCoinAmount(p_150749_)*p_150749_.getCount()).toPlainString());
-        componentAmountStack.withStyle(ChatFormatting.WHITE);
+        componentAmountTextStack.formatted(Formatting.LIGHT_PURPLE);
+        MutableText componentAmountStack = Text.literal(""+ BigDecimal.valueOf(getCoinAmount(stack)*stack.getCount()).toPlainString());
+        componentAmountStack.formatted(Formatting.WHITE);
         componentAmountTextStack.append(componentAmountStack);
-        MowLibTooltipUtils.addTooltipMessage(p_150751_,componentAmountTextStack);
-    }*/
+        tooltip.add(componentAmountTextStack);
+    }
 }

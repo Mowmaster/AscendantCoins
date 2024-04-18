@@ -4,6 +4,6 @@
         "layer0": "ascendantcoins:item/models/wallet"
     },
     "overrides": [
-        { "predicate": { "ascendantcoins:filled": 0.0000001 }, "model": "ascendantcoins:item/wallet_filled" }
+        { "predicate": { "filled": 0.0000001 }, "model": "ascendantcoins:item/wallet_filled" }
     ]
 }
